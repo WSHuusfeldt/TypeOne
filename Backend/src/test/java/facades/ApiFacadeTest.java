@@ -7,12 +7,13 @@ package facades;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Disabled;
 
 public class ApiFacadeTest {
     /**
      * Test of fetch method, of class ApiFacade.
      */
-    @Test
+    @Test @Disabled
     public void testFetch_String() {
         ApiFacade f = new ApiFacade();
         boolean data = false;
